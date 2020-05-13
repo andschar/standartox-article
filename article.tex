@@ -192,7 +192,7 @@ The data can be restricted to the three endpoint groups, namely half maximal eff
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{article/figures/standartox_parameters.png}
+    \includegraphics[width=0.8\textwidth]{figures/standartox_parameters.png}
     \caption{Share of 10 most frequent entries for the parameters (\textbf{A}) effect group, (\textbf{B}) chemical role, (\textbf{C}) chemical class, (\textbf{D}) taxonomic order, (\textbf{E}) organism habitat and (\textbf{F}) organism distribution in Standartox. Multiple classifications are possible (e.g. a chemical can be a fungicide and a pesticide).}
     \label{fig:stx-parameters}
 \end{figure}
@@ -202,7 +202,7 @@ Typically, species exhibit a differential sensitivity towards chemicals (Figure~
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{article/figures/results_variability.png}
+    \includegraphics[width=0.8\textwidth]{figures/results_variability.png}
     \caption{Violin plots of of test results (EC\textsubscript{50}) in Standartox illustrating (\textbf{A}) differential variability and data distribution between species (i.e. \textit{Xenopus laevis} - Amphibia, \textit{Raphidocelis subcapitata} - Algae, \textit{Oncorhynchus mykiss} - fish, \textit{Lemna minor} - invertebrate) for the chemical atrazine in 96 h tests, (\textbf{B}) how the variability in toxicity tests with zinc sulfate and \textit{Daphnia magna} varies with test duration and (\textbf{C}) high variability that is not explained by the available test characteristics in the case of cupric sulfate tested on \textit{Pimephales promelas} for 96 h. Red dots depict Standartox geometric mean estimates and black dots show raw data for each group. Red error bars show the standard deviation of the geometric mean. To facilitate readability, data points are randomly scattered along a hypothetical y-axis and are greyed out if within the violins.}
     \label{fig:stx-variability}
 \end{figure}
@@ -212,7 +212,7 @@ To validate Standartox results we compared geometric means resulting from the ag
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{article/figures/gg_ppdb_stan_compare_continous.png}
+    \includegraphics[width=1\linewidth]{figures/gg_ppdb_stan_compare_continous.png}
     \caption{Comparison between Standartox and (\textbf{A}) PPDB and (\textbf{B}) ChemProp values. The black lines indicate identity and red lines mark a divergence of a factor of 10. Compared species are color coded.}
     \label{fig:standartox_ppdb_diff}
 \end{figure}
@@ -260,7 +260,7 @@ Standartox downloads the quarterly released ECOTOX database and builds it into a
 
 \begin{figure}[H]
     \centering
-    \includestandalone[scale=0.75]{article/tikz/standartox-organigram}
+    \includestandalone[scale=0.75]{tikz/standartox-organigram}
     \caption{Organigram of Standartox. The ECOTOX knowledge base is downloaded quarterly and processed (i.e. query additional information with CAS and taxa names and conversion of concentration and duration units. Subsequently, a Standartox data set is compiled together with filter and aggregation methods. Thus, users can access the Standartox data set and filter and aggregate through a web application and an R-package.}
     \label{fig:stx-organigram}
 \end{figure}
